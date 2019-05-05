@@ -26,3 +26,10 @@ body {
   height: 60px;
   background: rgba(0, 0, 0, 0.7);
 }
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
