@@ -1,5 +1,5 @@
 // Option 2 jQuery smooth scroll
-$('.navbar a').on('click', function (e) {
+/*$('.navbar a').on('click', function (e) {
   if (this.hash !== '') {
     e.preventDefault()
     const hash = this.hash
@@ -8,4 +8,13 @@ $('.navbar a').on('click', function (e) {
       800 // this is for the speed
     )
   }
+})*/
+
+// third option - smoothscroll cdn
+// const scroll = new SmoothScroll('.navbar a[href*="#"]',
+// {speed: 800})
+
+// Option 3 - Smooth Scroll - https://github.com/cferdinandi/smooth-scroll
+const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+  speed: 500
 })
